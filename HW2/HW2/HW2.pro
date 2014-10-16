@@ -3,11 +3,12 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp
+SOURCES += \
+    Labs2.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
 
 HEADERS += \
-    main.h
+    Labs2.h
 

@@ -8,3 +8,6 @@ void ExampleInputOutput();
 void CartesianToPolar(int, int, float&, float&);
 void IsMultipleOf(int, int q = 2);
 bool isPrime(int, int);
+void ArraysExample1();
+void PascalTriangleStatic(int);
+void PascalTriangleDynamic();
